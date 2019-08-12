@@ -1,0 +1,90 @@
+import turtle
+t=turtle.Turtle()
+t.speed(6)
+t.color("green yellow")
+t.begin_fill()          #for P
+t.circle(50,180)
+t.end_fill()
+t.width(5)
+t.left(90)
+t.forward(200)
+
+t.penup()
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(98)
+t.right(90)
+t.pendown()
+
+t.color("plum")          #for R
+t.circle(50,180)
+t.width(5)
+t.left(90)
+t.forward(200)
+t.left(180)
+t.forward(100)
+t.right(150)
+t.forward(111)
+
+
+
+
+t.penup()
+t.left(60)
+t.forward(60)
+t.pendown()
+
+
+t.width(5)
+t.color("green yellow")
+t.left(90)
+t.forward(100)
+t.left(90) 
+t.forward(25)
+t.backward(25)              #for I
+t.right(180) 
+t.forward(25)
+t.backward(25)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(25) 
+t.backward(25)
+t.left(180)
+t.forward(25)                    
+
+
+
+t.penup()
+t.forward(60)
+t.pendown()
+
+
+t.width(5)
+t.color("plum")
+t.left(90)
+t.forward(100)
+t.left(50)     #for y
+t.forward(80)
+t.backward(80)
+t.right(100)
+t.forward(80)
+
+
+t.penup()
+t.right(40)
+t.forward(50)
+t.pendown()
+
+t.color("green yellow")
+t.width(5)
+t.right(110)
+t.forward(100)
+t.backward(100)
+t.left(40)          # for A
+t.forward(100)
+t.backward(50)
+t.right(110)
+t.forward(30)
+t.hideturtle()
