@@ -1,3 +1,73 @@
+#TURTLE TRY
+import turtle
+turtle.bgcolor("black")
+
+import turtle
+t=turtle.Turtle()
+t.width(4)
+t.speed(1)
+t.penup()
+t.backward(290)
+t.left(90)
+t.forward(210)
+t.pendown()
+
+for _ in range(18):
+    t.color("Cornflower Blue")
+    t.circle(80,360)
+    t.left(100)
+'''for _ in range(14):
+    t.color("Medium Spring Green")
+    t.circle(50,360)
+    t.left(50)'''
+
+
+
+
+
+import turtle
+t=turtle.Turtle()
+t.speed(10)
+t.backward(230)
+t.color("Medium Spring Green")
+t.width(3)
+t.right(90)
+t.forward(100)
+t.backward(50)
+t.left(90)
+t.forward(50)         #for H
+t.left(90)
+t.forward(50)
+t.backward(100)
+t.right(90)
+
+t.penup()
+t.forward(20)
+t.pendown()
+
+t.color("Cyan")
+t.left(90)
+t.forward(50)
+t.right(90)
+t.circle(25,180)       # for B
+t.left(90)
+t.forward(100)
+t.left(90)
+t.circle(25,180)
+
+
+t.penup()
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(45)
+t.pendown()
+
+t.color("Medium Spring Green")
+t.circle(50,180)             
+t.left(90)          #for D
+t.forward(100)
+
 import turtle
 t=turtle.Turtle()
 t.speed(6)
