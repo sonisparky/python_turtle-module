@@ -1,0 +1,10 @@
+import turtle
+t=turtle.Turtle()
+for _ in range(14):
+    t.color("salmon")
+    t.circle(15,360)
+    t.left(100)
+for _ in range(14):
+    t.color("Medium Spring Green")
+    t.circle(15,360)
+    t.left(50)
