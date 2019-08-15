@@ -1,36 +1,61 @@
-#TURTLE TRY
 import turtle
 turtle.bgcolor("black")
 
 import turtle
 t=turtle.Turtle()
 t.width(4)
-t.speed(1)
+t.speed(4)
+
 t.penup()
-t.backward(290)
+t.backward(250)
 t.left(90)
-t.forward(210)
+t.forward(220)
 t.pendown()
 
 for _ in range(18):
-    t.color("Cornflower Blue")
+    t.color("Medium Violet Red")
     t.circle(80,360)
     t.left(100)
-'''for _ in range(14):
-    t.color("Medium Spring Green")
-    t.circle(50,360)
-    t.left(50)'''
+
+t.penup()
+t.backward(160)
+t.pendown()
+
+t.width(7)
+t.color("Dark Green")
+t.left(180)
+t.forward(370)
 
 
+t.penup()
+t.right(90)
+t.forward(110)
+t.right(90)
+t.forward(200)
+t.pendown()
 
+for _ in range(18):
+    t.width(3)
+    t.color("pale Violet Red")
+    t.circle(44,360)
+    t.left(100)
+
+t.penup()
+t.backward(85)
+t.pendown()
+
+t.width(7)
+t.color("Dark Green")
+t.left(180)
+t.forward(150)
+t.hideturtle()
 
 
 import turtle
 t=turtle.Turtle()
-t.speed(10)
-t.backward(230)
+t.backward(200)
 t.color("Medium Spring Green")
-t.width(3)
+t.width(5)
 t.right(90)
 t.forward(100)
 t.backward(50)
@@ -67,10 +92,10 @@ t.color("Medium Spring Green")
 t.circle(50,180)             
 t.left(90)          #for D
 t.forward(100)
+t.hideturtle()
 
 import turtle
 t=turtle.Turtle()
-t.speed(6)
 t.color("green yellow")
 t.begin_fill()          #for P
 t.circle(50,180)
@@ -98,8 +123,6 @@ t.right(150)
 t.forward(111)
 
 
-
-
 t.penup()
 t.left(60)
 t.forward(60)
@@ -123,7 +146,6 @@ t.forward(25)
 t.backward(25)
 t.left(180)
 t.forward(25)                    
-
 
 
 t.penup()
