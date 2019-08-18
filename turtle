@@ -36,18 +36,24 @@ t.pendown()
 
 for _ in range(18):
     t.width(3)
-    t.color("pale Violet Red")
-    t.circle(44,360)
-    t.left(100)
+    t.color("pale Violet Red")    #small flower
+    t.right(50)
+    t.forward(68)
+    t.left(90)
+    t.forward(68)
+    t.left(90)
+    t.forward(68)
+    t.left(90)
+    t.forward(68)
+
 
 t.penup()
-t.backward(85)
+t.backward(90)
 t.pendown()
 
 t.width(7)
 t.color("Dark Green")
-t.left(180)
-t.forward(150)
+t.backward(150)
 t.hideturtle()
 
 
