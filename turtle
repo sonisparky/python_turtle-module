@@ -4,7 +4,7 @@ turtle.bgcolor("black")
 import turtle
 t=turtle.Turtle()
 t.width(4)
-t.speed(4)
+t.speed(3)
 
 t.penup()
 t.backward(250)
@@ -13,9 +13,10 @@ t.forward(220)
 t.pendown()
 
 for _ in range(18):
-    t.color("Medium Violet Red")
+    t.color("Medium Violet Red")   #big flower
     t.circle(80,360)
     t.left(100)
+    
 
 t.penup()
 t.backward(160)
@@ -29,11 +30,12 @@ t.forward(370)
 
 t.penup()
 t.right(90)
-t.forward(110)
+t.forward(130)
 t.right(90)
-t.forward(200)
+t.forward(230)
 t.pendown()
 
+  
 for _ in range(18):
     t.width(3)
     t.color("pale Violet Red")    #small flower
@@ -112,9 +114,9 @@ t.forward(200)
 
 t.penup()
 t.left(90)
-t.forward(100)
+t.forward(90)
 t.left(90)
-t.forward(98)
+t.forward(95)
 t.right(90)
 t.pendown()
 
@@ -154,6 +156,7 @@ t.left(180)
 t.forward(25)                    
 
 
+
 t.penup()
 t.forward(60)
 t.pendown()
@@ -185,4 +188,43 @@ t.forward(100)
 t.backward(50)
 t.right(110)
 t.forward(30)
-t.hideturtle()
+
+#t.hideturtle()
+
+t.penup()
+t.left(90)
+t.forward(300)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.pendown()
+
+for _ in range(2):
+    t.color("crimson")
+    t.right(25)
+    t.forward(50)
+    t.right(130)
+    t.forward(50)
+    t.right(140)
+    t.forward(70)
+    t.right(150)
+    t.forward(70)
+    t.right(145)
+    t.forward(60)
+    t.right(90)
+    t.penup()
+    t.forward(80)
+    t.pendown()
+    t.right(165)
+    
+t.right(17)
+t.forward(50)
+t.right(130)
+t.forward(50)
+t.right(140)
+t.forward(70)
+t.right(150)
+t.forward(70)
+t.right(145)
+t.forward(60)
+t.hideturtle()   
